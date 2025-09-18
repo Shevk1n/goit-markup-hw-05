@@ -676,13 +676,12 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 display: flex;
 align-items: center;
-a {
-  line-height: 1.33;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-color: #4d5ae5;
-
 }
+.modal-check-label a {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 .modal-check:checked + .modal-check-label > .modal-check-box {
   background-color: #404bbf;
@@ -703,7 +702,7 @@ margin-right: 8px;
 fill: transparent;
 }
  .button-send {
-  ont-family: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
